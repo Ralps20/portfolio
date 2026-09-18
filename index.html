@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>John Ralp Malones — Student Developer</title>
+<meta name="description" content="Portfolio of John Ralp Malones (jepjep), a student developer in Iloilo, Philippines building small, useful web systems.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar" aria-hidden="true"></div>
+<a class="skip" href="#work">Skip to work</a>
+
+<div class="wrap">
+  <header class="masthead">
+    <a class="mark" href="#top">John Ralp Malones<span>.</span></a>
+
+    <button class="menu-btn" id="navToggle" aria-expanded="false" aria-controls="navLinks">Menu</button>
+
+    <nav class="nav" id="navLinks" aria-label="Sections">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <button class="theme-btn" id="themeToggle" aria-pressed="false">Dark</button>
+    </nav>
+  </header>
+
+  <div class="hero" id="top">
+    <h1 class="reveal">I build small systems<em>that solve real problems</em></h1>
+    <p class="standfirst reveal">I'm jepjep — a student developer in Iloilo, Philippines, building practical web applications: records systems, trackers, and tools people actually use, while I learn the craft.</p>
+    <p class="avail reveal"><span class="dot" aria-hidden="true"></span>Open to internships and small freelance projects</p>
+  </div>
+
+  <div class="index reveal">
+    <div class="index-scroll">
+      <table>
+        <caption>Selected work</caption>
+        <thead>
+          <tr><th scope="col">Project</th><th scope="col">Stack</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><a href="#plate-nayki">Nayki</a></td><td class="col-t">HTML, CSS, JS</td></tr>
+          <tr><td><a href="#plate-bms">BMS — Barangay Management System</a></td><td class="col-t">HTML, CSS, JS, OOP PHP</td></tr>
+          <tr><td><a href="#plate-cyboard">Cyboard</a></td><td class="col-t">HTML, CSS, JS, Google API</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+  <section id="work">
+    <h2 class="sec-head">Work</h2>
+
+    <div class="filter-row reveal" id="projectFilter" role="group" aria-label="Filter projects by stack">
+      <button type="button" class="filter-btn is-active" data-filter="all">All</button>
+      <button type="button" class="filter-btn" data-filter="html">HTML</button>
+      <button type="button" class="filter-btn" data-filter="css">CSS</button>
+      <button type="button" class="filter-btn" data-filter="js">JS</button>
+      <button type="button" class="filter-btn" data-filter="php">PHP</button>
+      <button type="button" class="filter-btn" data-filter="api">API</button>
+    </div>
+
+    <div class="project-list" id="projectList">
+      <a class="project reveal" id="plate-nayki" href="nayki/index.html" data-tags="html css js">
+        <div class="project-visual" style="--tint:#e3a13c;">
+          <img src="img/firstproject.jpeg" alt="Nayki athletic gear website screenshot" loading="lazy">
+        </div>
+        <div class="project-info">
+          <ul class="tag-list"><li>html</li><li>css</li><li>js</li></ul>
+        </div>
+      </a>
+
+      <a class="project reveal" id="plate-bms" href="brgy/admin/login.php" data-tags="html css js php">
+        <div class="project-visual" style="--tint:#e3a13c;">
+          <img src="img/bms.jpeg" alt="BMS barangay management system screenshot" loading="lazy">
+        </div>
+        <div class="project-info">
+          <ul class="tag-list"><li>html</li><li>css</li><li>js</li><li>php</li></ul>
+        </div>
+      </a>
+
+      <a class="project reveal" id="plate-cyboard" href="sampleportfolio/index.html" data-tags="html css js api">
+        <div class="project-visual" style="--tint:#e3a13c;">
+          <img src="img/port.jpeg" alt="Cyboard project screenshot" loading="lazy">
+        </div>
+        <div class="project-info">
+          <ul class="tag-list"><li>html</li><li>css</li></ul>
+        </div>
+      </a>
+
+      <p class="project-empty" id="projectEmpty" hidden>Nothing tagged that way yet — try another filter.</p>
+    </div>
+  </section>
+</div>
+
+<div class="wrap">
+  <section id="about">
+    <h2 class="sec-head">About</h2>
+    <div class="about">
+      <div>
+        <p>I'm a student developer who enjoys creating simple, useful, and user-friendly web applications. I'm continuously learning new technologies and improving my programming and problem-solving skills.</p>
+        <p>My goal is to gain real experience by building projects that help people, while expanding my knowledge of web development and software engineering.</p>
+      </div>
+      <div>
+        <div class="stack">
+          <h3>What I reach for</h3>
+          <ul>
+            <li>Front-end — HTML, CSS, Bootstrap</li>
+            <li>Back-end — Python, PHP, Node.js</li>
+            <li>Design — Figma, prototyping</li>
+            <li>Tooling — GitHub, Vercel, VS Code</li>
+          </ul>
+        </div>
+        <div class="stack">
+          <h3>Quick facts</h3>
+          <ul>
+            <li>Role — Student developer</li>
+            <li>Currently learning — HTML, CSS, Python, PHP</li>
+            <li>Goal — Build useful applications</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<div class="contact-band">
+  <div class="wrap">
+    <section id="contact">
+      <h2 class="sec-head">Contact</h2>
+      <div class="mail-row">
+        <a class="mailto" id="contactEmail" href="mailto:johnralpmalones438@gmail.com">johnralpmalones438@gmail.com</a>
+      </div>
+      <p class="contact-note">I'm a student who enjoys learning web development and building small, real projects. Reach out by email or find me on socials below.</p>
+      <p><button class="copy-btn" id="copyEmailBtn">Copy email address</button></p>
+      <div class="elsewhere">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Facebook</a>
+      </div>
+    </section>
+  </div>
+</div>
+
+<div class="wrap">
+  <footer>
+    <span>John Ralp Malones, student developer</span>
+    <span>Iloilo, Philippines</span>
+  </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

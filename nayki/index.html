@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nayki</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="top">
+    <nav>
+        <h2 class="logo">Nayki</h2>
+
+        <ul>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#men">Men</a></li>
+            <li><a href="#women">Women</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+            <button class="cart-btn" id="cartBtn" aria-label="View cart">
+                🛒
+                <span class="cart-count" id="cartCount">0</span>
+            </button>
+            <button class="btn" id="loginBtn">Login</button>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Discover Your Perfect Pair</h1>
+            <p>
+                Premium sneakers designed for comfort,
+                style, and performance.
+            </p>
+
+            <a href="#shop" class="shop-btn">Shop Now</a>
+        </div>
+
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=700" alt="Shoes">
+        </div>
+    </section>
+</header>
+
+<section class="products" id="shop">
+
+    <h2>Featured Collection</h2>
+
+    <div class="cards">
+
+        <div class="card" data-name="Air Runner" data-price="89.99">
+            <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500">
+            <h3>Air Runner</h3>
+            <p>₱89.99</p>
+            <button class="add-cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="card" data-name="Urban Sneakers" data-price="109.99">
+            <img src="https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?w=500">
+            <h3>Urban Sneakers</h3>
+            <p>₱109.99</p>
+            <button class="add-cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="card" data-name="Sport Max" data-price="124.99">
+            <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=500">
+            <h3>Sport Max</h3>
+            <p>₱124.99</p>
+            <button class="add-cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="card" data-name="Street Flex" data-price="99.99">
+            <img src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=500">
+            <h3>Street Flex</h3>
+            <p>₱99.99</p>
+            <button class="add-cart-btn">Add to Cart</button>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="products" id="men">
+
+    <h2>Men's Collection</h2>
+
+    <div class="cards">
+
+        <div class="card" data-name="Trail Blazer" data-price="94.99">
+            <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=500">
+            <h3>Trail Blazer</h3>
+            <p>₱94.99</p>
+            <button class="add-cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="card" data-name="Court Classic" data-price="79.99">
+            <img src="https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=500">
+            <h3>Court Classic</h3>
+            <p>₱79.99</p>
+            <button class="add-cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="card" data-name="Heritage Low" data-price="114.99">
+            <img src="https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=500">
+            <h3>Heritage Low</h3>
+            <p>₱114.99</p>
+            <button class="add-cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="card" data-name="Trainer Pro" data-price="104.99">
+            <img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=500">
+            <h3>Trainer Pro</h3>
+            <p>₱104.99</p>
+            <button class="add-cart-btn">Add to Cart</button>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="products" id="women">
+
+    <h2>Women's Collection</h2>
+
+    <div class="cards">
+
+        <div class="card" data-name="Cloud Step" data-price="99.99">
+            <img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=500">
+            <h3>Cloud Step</h3>
+            <p>₱99.99</p>
+            <button class="add-cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="card" data-name="Pastel Runner" data-price="89.99">
+            <img src="https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?w=500">
+            <h3>Pastel Runner</h3>
+            <p>₱89.99</p>
+            <button class="add-cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="card" data-name="Flex Glide" data-price="109.99">
+            <img src="https://images.unsplash.com/photo-1596703263926-eb0762ee17e4?w=500">
+            <h3>Flex Glide</h3>
+            <p>₱109.99</p>
+            <button class="add-cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="card" data-name="Studio Knit" data-price="119.99">
+            <img src="https://images.unsplash.com/photo-1608256246200-53e635b5b65f?w=500">
+            <h3>Studio Knit</h3>
+            <p>₱119.99</p>
+            <button class="add-cart-btn">Add to Cart</button>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="about">
+
+    <div class="about-text">
+        <h2>Why Choose Nayki?</h2>
+
+        <p>
+            We combine fashion, comfort, and durability
+            to create shoes that keep you moving all day.
+            Every pair is made using premium materials
+            with modern designs.
+        </p>
+
+    </div>
+
+</section>
+
+<section class="newsletter">
+
+    <h2>Get 20% Off</h2>
+
+    <p>Subscribe to receive exclusive offers.</p>
+
+    <input type="email" placeholder="Enter your email">
+
+    <button>Subscribe</button>
+
+</section>
+
+<section class="about" id="contact">
+
+    <div class="about-text">
+        <h2>Get In Touch</h2>
+
+        <p>
+            Have a question about your order or a product?
+            We'd love to hear from you.
+        </p>
+
+        <div class="contact-info">
+            <p><strong>Email:</strong> support@nayki.com</p>
+            <p><strong>Phone:</strong> (0917) 123 4567</p>
+            <p><strong>Address:</strong> Iloilo City, Philippines</p>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <h3>Nayki</h3>
+
+    <p>© 2026 Nayki. All Rights Reserved.</p>
+
+</footer>
+
+<!-- CART MODAL -->
+<div class="modal-overlay" id="cartOverlay">
+    <div class="modal-box">
+        <button class="modal-close" id="cartClose" aria-label="Close cart">✕</button>
+        <h3>Your Cart</h3>
+        <div id="cartItems" class="cart-items"></div>
+        <div class="cart-total">
+            <span>Total:</span>
+            <span id="cartTotal">$0.00</span>
+        </div>
+        <button class="checkout-btn" id="checkoutBtn">Checkout</button>
+    </div>
+</div>
+
+<!-- LOGIN MODAL -->
+<div class="modal-overlay" id="loginOverlay">
+    <div class="modal-box">
+        <button class="modal-close" id="loginClose" aria-label="Close login">✕</button>
+        <h3 id="loginTitle">Login</h3>
+        <form id="loginForm">
+            <input type="email" id="loginEmail" placeholder="Email" required>
+            <input type="password" id="loginPassword" placeholder="Password" required>
+            <button type="submit" class="modal-submit">Login</button>
+        </form>
+        <p class="modal-note">Demo login only — walang totoong account na kailangan.</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
